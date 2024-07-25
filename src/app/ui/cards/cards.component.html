@@ -1,0 +1,11 @@
+
+<div class="row">
+
+    @for (item of items; track $index) {
+        <div class="col ">
+            <app-card [cardDetails]="item" ></app-card>
+        </div>
+        
+    }
+
+</div>

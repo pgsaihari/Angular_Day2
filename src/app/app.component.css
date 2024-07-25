@@ -1,0 +1,41 @@
+.flex-container {
+    display: flex;
+    height: 100vh; /* Adjust as necessary */
+    border: 2px solid black;
+  }
+  
+  .box {
+    border: 1px solid black;
+  }
+  
+  .box1 {
+    flex: 1;
+    background-color: #8B0000; /* Dark red */
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .box2 {
+    flex: 1;
+    background-color: #FFD700; /* Gold */
+  }
+  
+  .bottom-row {
+    display: flex;
+    flex: 1;
+  }
+  
+  .box3 {
+    flex: 1;
+    background-color: #ADD8E6; /* Light blue */
+  }
+  
+  .box4 {
+    flex: 1;
+    background-color: #008000; /* Green */
+  }
+  

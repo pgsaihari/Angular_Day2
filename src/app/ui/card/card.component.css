@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-body {
+  flex: 1; /* Takes up the remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures the content is spaced out evenly */
+}
+
+.card-title, .card-text {
+  margin-bottom: 15px; /* Adds some space between title, text, and button */
+}
+
+.btn-primary {
+  align-self: flex-start; /* Aligns the button to the start of the card body */
+}
